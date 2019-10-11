@@ -24,6 +24,8 @@ public class DisplayMessageActivity extends AppCompatActivity {
 
         // Capture the layout's TextView and set the string as its text
         TextView textView = findViewById(R.id.textView);
+        String textSize;
+        android:textSize="64dp";
         textView.setText(message);
     }
 }
